@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 # Projektnamn här
 Projektmedlemmar: 
 [ch222kv](https://github.com/ch222kv)
 
 
 [Exekverbar version av projektet](http://ch222kv.github.io/Projekt/)
+=======
+# Hemsida för Kronotolk
+Projektmedlemmar: 
+[epr](https://github.com/epr)
+
+[Exekverbar version av projektet](http://epr.github.io/projekt)
+>>>>>>> added project name and member
 
 ## Beskrivning av projektet
 *En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
