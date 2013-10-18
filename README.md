@@ -1,5 +1,5 @@
-Projektskelett HT13
+Projekt HT13
 ==================
 
-Ett tomt projekt som forkas för de som gör projekt i kursen. Kursen webbplats:
+Projektet för Webbteknisk introduktion
 https://coursepress.lnu.se/kurs/webbteknisk-introduktion/
