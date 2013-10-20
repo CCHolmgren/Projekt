@@ -1,10 +1,9 @@
 # Projektnamn här
 Projektmedlemmar: 
-[tstjostudent](https://github.com/tstjostudent), [xx222yy](https://github.com/tstjostudent), [yy222xx](https://github.com/tstjostudent)
+[ch222kv](https://github.com/ch222kv)
 
-*Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
 
-[Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
+[Exekverbar version av projektet](http://ch222kv.github.io/Projektet)
 
 *Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
 
@@ -24,9 +23,5 @@ Jag kanske kommer att göra någon form utav simpelt fejk, eller så skriver jag
 *Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
 
 
-## *Förändra*
-*Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
-
 ## Tidsplanering
-*Länka till tidsplaneringen här, eller fäll in som en bild.*
-
+[Tidsplanering](https://github.com/ch222kv/Projekt/raw/master/doc/Copy%20of%20Assignment%20Planning%20Gantt%20Chart%20-%20Project%20Timeline.pdf)
