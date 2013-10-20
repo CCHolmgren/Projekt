@@ -23,7 +23,7 @@ Listor:
 1. Ordnade listor, alt 1
 2. Alternativ 2
 
-Oordnade listpor:
+Oordnade listor:
 
 * Element 1
 * Element 2
