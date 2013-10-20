@@ -3,7 +3,7 @@ Projektmedlemmar:
 [ch222kv](https://github.com/ch222kv)
 
 
-[Exekverbar version av projektet](http://ch222kv.github.io/Projektet)
+[Exekverbar version av projektet](http://ch222kv.github.io/Projekt/)
 
 *Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
 
