@@ -108,11 +108,8 @@ nav a:hover {
 
 .main article h1 {
   font-size: 2em; }
-
 .main aside {
-  /*color: white;*/
   padding: 0px 5% 10px; }
-
 .main img {
   width: 100%; }
 
@@ -134,6 +131,27 @@ nav a:hover {
 .header-container > header {
   margin-left: 5%; }
 
+footer a {
+  color: white; }
+
+.personal {
+  width: 100px;
+  font-size: 12px; }
+
+.personal ul {
+  padding: 0;
+  margin: 0;
+  margin-left: 15px;
+  list-style: none; }
+
+.wrap {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+
+header {
+  width: 40%; }
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -147,12 +165,10 @@ nav a:hover {
     margin: 0 0.25%;
     padding: 25px 0;
     margin-bottom: 0; }
-
   nav li:first-child a {
     margin-left: 0; }
-
   nav li:last-child a {
-    margin-right: 0; }
+    margin-left: 0; }
 
   /* ========================
       INTERMEDIATE: IE Fixes
@@ -207,13 +223,12 @@ nav a:hover {
   /* ===============
       Maximal Width
      =============== */
-  .wrapper {
+  .wrapper, .wrap {
     width: 1026px;
     /* 1140px - 10% for margins */
     margin: 0 auto; }
 
   .header-container {
-    width: 1026px;
     margin-left: auto;
     margin-right: auto; } }
 /* ==========================================================================
