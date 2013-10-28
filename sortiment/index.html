@@ -21,17 +21,38 @@
         <![endif]-->
 
         <div class="header-container">
-            <header class="left clearfix">
-                <h1 class="title">IKEA kopia</h1>
-            </header>
-                <nav class="wrapper clearfix clear">
-                    <ul>
-                        <li><a href="">Hem</a></li>
-                        <li><a href="sortiment/index.html">Sortiment</a></li>
-                        <li><a href="cart/index.html">Inköpslista</a></li>
-                        <li><a href="varuhus/index.html">Varuhus</a></li>
-                    </ul>
-                </nav>
+        <!--Ugly solution, but it fixes the controls in the header from floating to far to the right or the left-->
+            <div class="wrap clearfix">
+                    <header class="left clearfix">
+                        <h1 class="title">IKEA kopia</h1>
+                    </header>
+                    <div class="left clearfix">
+                        <input type="text">
+                        <button>Sök</button>
+                    </div>
+                    <div class="personal left clearfix">
+                        <ul>
+                            <li>För ditt företag</li>
+                            <li>IKEA FAMILY</li>
+                            <li>Min inköpslista</li>
+                        </ul>
+                    </div>
+                    <div class="personal left clearfix">
+                        <ul>
+                            <li>Logga in</li>
+                            <li>Min profil</li>
+                            <li>Min kundvagn</li>
+                        </ul>
+                    </div>
+            </div>
+            <nav class="wrapper clearfix clear">
+                <ul>
+                    <li><a href="../index.html">Hem</a></li>
+                    <li><a href="#">Sortiment</a></li>
+                    <li><a href="../cart/index.html">Inköpslista</a></li>
+                    <li><a href="../varuhus/index.html">Varuhus</a></li>
+                </ul>
+            </nav>
         </div>
 
         <div class="main-container">
