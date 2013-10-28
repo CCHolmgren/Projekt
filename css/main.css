@@ -116,7 +116,8 @@ nav a:hover {
 .footer-container footer {
   color: white;
   background-color: #666666;
-  padding: 10px 1%; }
+  padding: 10px 1%;
+  font-size: 15px; }
 
 /* ===============
     ALL: IE Fixes
@@ -136,9 +137,9 @@ nav a:hover {
      ==================== */
   nav a {
     float: left;
-    width: 17%;
-    margin: 0 1%;
-    padding: 25px 2%;
+    width: 24.5%;
+    margin: 0 0.25%;
+    padding: 25px 0;
     margin-bottom: 0; }
 
   nav li:first-child a {
