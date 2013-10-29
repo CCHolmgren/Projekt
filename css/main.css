@@ -169,6 +169,21 @@ header {
   font-weight: bold;
   font-size: 15px; }
 
+.shadow {
+  width: 75%;
+  height: 200px;
+  -webkit-box-shadow: 0 5px 10px #aaa;
+  -moz-box-shadow: 0 5px 10px #aaa;
+  box-shadow: 0 5px 10px #aaa; }
+
+.left.smallimg {
+  margin: 1em 0;
+  height: 25px;
+  width: 25%; }
+
+table {
+  width: 100%; }
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
