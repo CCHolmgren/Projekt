@@ -152,7 +152,7 @@ nav a:hover {
   float: right; }
 
 .header-container > header {
-  margin-left: 5%; }
+  /*margin-left: 5%;*/ }
 
 footer a {
   color: white; }
@@ -238,6 +238,9 @@ table {
 thead th {
   border-right: 1px solid black; }
 
+div {
+  border: 1px solid black; }
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -248,7 +251,7 @@ thead th {
   nav a {
     float: left;
     width: 24.5%;
-    margin: 0 0.25%;
+    margin: 0 auto;
     padding: 25px 0;
     margin-bottom: 0; }
   nav li:first-child a {
