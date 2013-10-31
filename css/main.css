@@ -106,12 +106,6 @@ nav a:hover {
 /* ==============
     MOBILE: Main
    ============== */
-.left {
-  float: left; }
-
-.right {
-  float: right; }
-
 .main {
   padding: 30px 0; }
 
@@ -137,6 +131,17 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.left {
+  float: left; }
+
+.left.smallimg {
+  margin: 1em 0;
+  height: 25px;
+  width: 25%; }
+
+.right {
+  float: right; }
+
 .header-container > header {
   margin-left: 5%; }
 
@@ -167,8 +172,10 @@ header {
 .quarter {
   margin: 0.5%;
   width: 23%;
-  height: 200px;
   min-width: 100px; }
+
+.quarter.left {
+  border: 1px dotted black; }
 
 .smalltext {
   font-weight: bold;
@@ -178,11 +185,6 @@ header {
   -webkit-box-shadow: 0 5px 10px #aaa;
   -moz-box-shadow: 0 5px 10px #aaa;
   box-shadow: 0 5px 10px #aaa; }
-
-.left.smallimg {
-  margin: 1em 0;
-  height: 25px;
-  width: 25%; }
 
 table {
   width: 100%; }
@@ -196,7 +198,6 @@ table {
 
 .geoloc {
   border-radius: 3px;
-  padding-left: 10px;
   color: white;
   background-color: #0273e1;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#3399fd), to(#0273e1));
@@ -205,13 +206,17 @@ table {
   background-image: -o-linear-gradient(top, #3399fd, #0273e1);
   background-image: linear-gradient(to bottom, #3399fd, #0273e1); }
 
+.geoloc p {
+  margin-left: 10px; }
+
 .buttonimg {
   float: right;
   height: 70px;
   width: 140px; }
 
-.quarter.left {
-  border: 1px dotted black; }
+.stores {
+  margin-left: auto;
+  margin-right: auto; }
 
 /* ==========================================================================
    Media Queries
