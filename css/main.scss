@@ -78,7 +78,8 @@ body {
 
 .wrapper {
     width: 90%;
-    margin: 0 5%;
+    max-width: 1026px;
+    margin: 0 auto;
 }
 
 /* ===================
@@ -224,9 +225,9 @@ footer {
 }
 
 .wrap{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90%;
+    max-width: 1026px;
+    margin: 0 auto;
 }
 
 header {
@@ -297,6 +298,10 @@ table {
 .stores {
     margin-left: auto;
     margin-right:auto;
+}
+
+thead th {
+    border-right: 1px solid black;
 }
 /* ==========================================================================
    Media Queries
@@ -403,7 +408,7 @@ table {
    =============== */
 
     .wrapper, .wrap {
-        width: 1026px; /* 1140px - 10% for margins */
+        /*width: 1026px;*/ /* 1140px - 10% for margins */
         margin: 0 auto;
     }
 
