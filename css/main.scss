@@ -1,3 +1,15 @@
+@mixin linear-gradient-background($color: blue, $darken:15%){
+    background-color: darken($color, $darken);
+    background-image: -webkit-gradient(linear, left top, left bottom, from($color), to(darken($color, $darken)));
+    background-image: -webkit-linear-gradient(top, $color, darken($color, $darken));
+    background-image:    -moz-linear-gradient(top, $color, darken($color, $darken));
+    background-image:      -o-linear-gradient(top, $color, darken($color, $darken));
+    background-image:         linear-gradient(to bottom, $color, darken($color, $darken));
+}
+
+$blue: #3399FD;
+$darkenPercent: 15%;
+
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
@@ -112,12 +124,15 @@ nav a {
 
     color: white;
     /*Nice gradient, unnice code to handle it*/
-    background-color: darken(#3399FD, 15%);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#3399FD), to(darken(#3399FD, 15%)));
-    background-image: -webkit-linear-gradient(top, #3399FD, darken(#3399FD, 15%));
-    background-image:    -moz-linear-gradient(top, #3399FD, darken(#3399FD, 15%));
-    background-image:      -o-linear-gradient(top, #3399FD, darken(#3399FD, 15%));
-    background-image:         linear-gradient(to bottom, #3399FD, darken(#3399FD, 15%));
+    @include linear-gradient-background($blue, $darkenPercent);
+    /*
+        background-color: darken(#3399FD, 15%);
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#3399FD), to(darken(#3399FD, 15%)));
+        background-image: -webkit-linear-gradient(top, #3399FD, darken(#3399FD, 15%));
+        background-image:    -moz-linear-gradient(top, #3399FD, darken(#3399FD, 15%));
+        background-image:      -o-linear-gradient(top, #3399FD, darken(#3399FD, 15%));
+        background-image:         linear-gradient(to bottom, #3399FD, darken(#3399FD, 15%));
+        */
 }
 
 nav a:hover,
@@ -258,12 +273,15 @@ table {
     $darkenPercent: 15%;
     border-radius: 3px;
     color: white;
-    background-color: darken($blue, $darkenPercent);
-    background-image: -webkit-gradient(linear, left top, left bottom, from($blue), to(darken($blue, $darkenPercent)));
-    background-image: -webkit-linear-gradient(top, $blue, darken($blue, $darkenPercent));
-    background-image:    -moz-linear-gradient(top, $blue, darken($blue, $darkenPercent));
-    background-image:      -o-linear-gradient(top, $blue, darken($blue, $darkenPercent));
-    background-image:         linear-gradient(to bottom, $blue, darken($blue, $darkenPercent));
+    @include linear-gradient-background($blue, $darkenPercent);
+    /*
+        background-color: darken($blue, $darkenPercent);
+        background-image: -webkit-gradient(linear, left top, left bottom, from($blue), to(darken($blue, $darkenPercent)));
+        background-image: -webkit-linear-gradient(top, $blue, darken($blue, $darkenPercent));
+        background-image:    -moz-linear-gradient(top, $blue, darken($blue, $darkenPercent));
+        background-image:      -o-linear-gradient(top, $blue, darken($blue, $darkenPercent));
+        background-image:         linear-gradient(to bottom, $blue, darken($blue, $darkenPercent));
+    */
 }
 
 .geoloc p {
