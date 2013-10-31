@@ -250,6 +250,8 @@ table {
 }
 
 .geoloc {
+    border-radius: 3px;
+    padding-left: 10px;
     color: white;
     background-color: darken(#3399FD, 15%);
     background-image: -webkit-gradient(linear, left top, left bottom, from(#3399FD), to(darken(#3399FD, 15%)));
@@ -258,6 +260,12 @@ table {
     background-image:      -o-linear-gradient(top, #3399FD, darken(#3399FD, 15%));
     background-image:         linear-gradient(to bottom, #3399FD, darken(#3399FD, 15%));
 }
+.buttonimg {
+    float:right;
+    height: 70px;
+    width: 140px;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
