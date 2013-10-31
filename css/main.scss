@@ -180,8 +180,14 @@ nav a:hover {
     margin-left: 5%;
 }
 
-footer a {
+footer { 
+    a {
     color: white;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 
 .personal {
