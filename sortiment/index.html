@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app="sortimentApp"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -14,8 +14,10 @@
         <link rel="stylesheet" href="../css/main.css">
 
         <script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+        <script src="controllers.js"></script>
     </head>
-    <body>
+    <body ng-controller="sortimentCtrl">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -63,28 +65,9 @@
                 <article>
                 <section>
                     <h2>Alla produkter</h2>
-                    <div class="quarter left smalltext"><a href="mobler.html"><img src="" alt="Beskrivning för kategorin" class="smallimg">Möbler för utomhusbruk</a></div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Äta</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Skrivbord</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Speglar</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Barnens IKEA</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Tillaga</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Badrumsförvaring</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Sängar & madrasser</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Stolar</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Klädförvaring</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Dekoration</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Golv</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">IKEA FAMILY produkter</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Köksskåp & vitvaror</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Belysning</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Småförvaring</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Soffor & fåtöljer</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Förvaringsmöbler</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Bord</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Textil & Mattor</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">Verktyg & beslag</div>
-                    <div class="quarter left smalltext"><img src="" alt="Beskrivning för kategorin" class="smallimg">TV & mediaförvaring</div>
+                    <div class="quarter left smalltext" ng-repeat="category in categories"><a href="{{category.link}}">
+                        <img src="" alt="Beskrivning för kategorin" class="smallimg">{{category.name}}
+                    </a></div>
                 </section>
                 </article>
 

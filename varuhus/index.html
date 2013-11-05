@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="sv" ng-app="warehouseApp"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -15,8 +15,9 @@
 
         <script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+        <script src="controllers.js"></script>
     </head>
-    <body>
+    <body ng-controller="warehouseCtrl">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
             <![endif]-->
@@ -63,7 +64,8 @@
                         <div class="wrap shadow geoloc"><p>Geolocation <br>
                             Samt sortering efter närhet till din plats</p></div>
                             <div class="stores">
-                                <div class="quarter left">
+                            <div class="quarter left" ng-repeat="store in stores"><img src="{{store.img}}" class="smallimg" /><span class="textpadding">{{store.location}}</div>
+                                <!-- <div class="quarter left">
                                     <img class="smallimg" /><span class="textpadding">Borlänge</span>
                                 </div>
                                 <div class="quarter left"><img class="smallimg" />
@@ -101,7 +103,7 @@
                                 <div class="quarter left"><img class="smallimg" /><span class="textpadding">Stockholm Barkarby</span></div>
                                 <div class="quarter left"><img class="smallimg" /><span class="textpadding">Sundsvall</span></div>
                                 <div class="quarter left"><img class="smallimg" /><span class="textpadding">Uddevalla</span></div>
-                                <div class="quarter left"><img class="smallimg" /><span class="textpadding">Västersås</span></div>
+                                <div class="quarter left"><img class="smallimg" /><span class="textpadding">Västersås</span></div> -->
                             </div>
                         </article>
 
