@@ -3,69 +3,113 @@ var sortimentApp = angular.module('sortimentApp', []);
 sortimentApp.controller('sortimentCtrl', function ($scope) {
     $scope.categories = [{
         'name': "Möbler för utomhusbruk",
-        'link': "mobler.html"
+        'link': "mobler.html",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Äta",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Skrivbord",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Speglar",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Barnens IKEA",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Tillaga",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Badrumsförvaring",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Sängar & madrasser",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Stolar",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Klädförvaring",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Dekoration",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Golv",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "IKEA FAMILY produkter",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Köksskåp & vitvaror",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Belysning",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Småförvaring",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Soffor & fåtöljer",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Förvaringsmöbler",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Bord",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Textil & Mattor",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "Verktyg & beslag",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }, {
         'name': "TV & mediaförvaring",
-        'link': ""
+        'link': "",
+        'imgalt': "Beskrivning för kategorin",
+        'imgsrc': ""
     }];
 });
