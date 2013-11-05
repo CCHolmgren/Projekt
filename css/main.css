@@ -52,7 +52,7 @@ body {
   font: 16px/26px Helvetica, Helvetica Neue, Arial; }
 
 .wrapper {
-  width: 90%;
+  width: 95%;
   max-width: 1026px;
   margin: 0 auto; }
 
@@ -182,14 +182,15 @@ header {
 .quarter {
   margin: 0.5%;
   width: 23%;
-  min-width: 100px; }
+  min-width: 133px; }
 
 .quarter.left {
   border: 1px dotted black; }
 
 .smalltext {
   font-weight: bold;
-  font-size: 15px; }
+  font-size: 15px;
+  text-wrap: unrestricted; }
 
 .shadow {
   -webkit-box-shadow: 0 5px 10px #aaa;
