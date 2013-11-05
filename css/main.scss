@@ -259,6 +259,7 @@ header {
 
 
 table {
+    color: lighten(#000000, 25%);
     width:100%;
 }
 
@@ -303,7 +304,7 @@ table {
 }
 
 thead th {
-    border-right: 1px solid black;
+    border-right: 1px solid lighten(black,20%);
 }
 
 /* ==========================================================================

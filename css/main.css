@@ -198,6 +198,7 @@ header {
   box-shadow: 0 5px 10px #aaa; }
 
 table {
+  color: #404040;
   width: 100%; }
 
 .smallimg {
@@ -238,7 +239,7 @@ table {
   margin-right: auto; }
 
 thead th {
-  border-right: 1px solid black; }
+  border-right: 1px solid #333333; }
 
 /* ==========================================================================
    Media Queries
