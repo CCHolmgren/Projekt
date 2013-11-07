@@ -307,6 +307,16 @@ thead th {
     border-right: 1px solid lighten(black,20%);
 }
 
+fieldset {
+    @include linear-gradient-background(#ffffff, 5%);
+}
+
+label, input, textarea, select {
+    display:inline-block;
+    vertical-align:top;
+    width:30%;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
