@@ -54,7 +54,7 @@
                         <li><a href="../sortiment/index.html">Sortiment</a></li>
                         <li><a href="../cart/index.html">Inköpslista</a></li>
                         <li><a href="#">Varuhus</a></li>
-                        <li><a href="kontakt.html">Kontakta mig</a></li>
+                        <li><a href="../kontakt.html">Kontakta mig</a></li>
                     </ul>
                 </nav>
             </div>
@@ -63,9 +63,18 @@
                 <div class="main wrapper clearfix">
                     <article>
                         <div class="wrap shadow geoloc"><p>Geolocation <br>
-                            Samt sortering efter närhet till din plats</p></div>
+                            Samt sortering efter närhet till din plats</p>
+                            <div>Sortera efter:
+                                <select ng-model="orderProp">
+                                    <option value="location">Plats</option>
+                                    <option value="value">Värde</option>
+                                </select>
+                            </div></div>
                             <div class="stores">
-                            <div class="quarter left" ng-repeat="store in stores"><img src="{{store.img}}" class="smallimg" /><span class="textpadding">{{store.location}}</div>
+                            <div class="quarter left" ng-repeat="store in stores|orderBy:orderProp">
+                                <img src="{{store.img}}" class="smallimg" />
+                                <span class="textpadding">{{store.location}}</span>
+                            </div>
                                 <!-- <div class="quarter left">
                                     <img class="smallimg" /><span class="textpadding">Borlänge</span>
                                 </div>
