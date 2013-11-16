@@ -244,7 +244,11 @@ thead th {
 label, input, textarea, select {
   display: inline-block;
   vertical-align: top;
-  width: 30%; }
+  width: 30%;
+  min-width: 150px; }
+
+input[type="submit"] {
+  margin-left: 3%; }
 
 /* ==========================================================================
    Media Queries
