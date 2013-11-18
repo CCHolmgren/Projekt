@@ -268,8 +268,7 @@ input[type="submit"] {
     margin-left: 0; }
   nav li:last-child a {
     border-top-right-radius: 10px;
-    margin-right: 0;
-    font-size: 13px; }
+    margin-right: 0; }
 
   /* ========================
       INTERMEDIATE: IE Fixes
@@ -279,9 +278,6 @@ input[type="submit"] {
 
   .oldie nav a {
     margin: 0 0.7%; } }
-@media only screen and (min-width: 560px) {
-  nav li:last-child a {
-    font-size: 16px; } }
 @media only screen and (min-width: 768px) {
   /* ====================
       WIDE: CSS3 Effects

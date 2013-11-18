@@ -350,7 +350,6 @@ input[type="submit"] {
         li:last-child a {
             border-top-right-radius: 10px;
             margin-right: 0;
-            font-size:13px;
         }
     }
 
@@ -366,11 +365,7 @@ input[type="submit"] {
         margin: 0 0.7%;
     }
 }
-@media only screen and (min-width: 560px) {
-    nav li:last-child  a{
-        font-size: 16px;
-    }
-}
+
 @media only screen and (min-width: 768px) {
 
 /* ====================
