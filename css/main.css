@@ -80,7 +80,6 @@ body {
 nav ul {
   margin: 0;
   padding: 0; }
-
 nav a {
   display: block;
   margin-bottom: 10px;
@@ -104,11 +103,8 @@ nav a {
       background-image:      -o-linear-gradient(top, #3399FD, darken(#3399FD, 15%));
       background-image:         linear-gradient(to bottom, #3399FD, darken(#3399FD, 15%));
       */ }
-
-nav a:hover,
-nav a:visited {
+nav a:hover, nav a:visited {
   color: white; }
-
 nav a:hover {
   text-decoration: underline; }
 
@@ -268,7 +264,8 @@ input[type="submit"] {
     margin-left: 0; }
   nav li:last-child a {
     border-top-right-radius: 10px;
-    margin-right: 0; }
+    margin-right: 0;
+    font-size: 13px; }
 
   /* ========================
       INTERMEDIATE: IE Fixes
@@ -278,6 +275,9 @@ input[type="submit"] {
 
   .oldie nav a {
     margin: 0 0.7%; } }
+@media only screen and (min-width: 560px) {
+  nav li:last-child a {
+    font-size: 16px; } }
 @media only screen and (min-width: 768px) {
   /* ====================
       WIDE: CSS3 Effects
