@@ -310,8 +310,13 @@ fieldset {
 label, input, textarea, select {
     display:inline-block;
     vertical-align:top;
-    width:30%;
+    width:50%;
     min-width:150px;
+    max-width:350px;
+}
+
+textarea {
+    height:150px;
 }
 
 input[type="submit"] {
