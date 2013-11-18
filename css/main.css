@@ -71,8 +71,8 @@ body {
 .main aside {
   background: white; }
 
-.title {
-  /*color: white;*/ }
+.title a {
+  color: black; }
 
 /* ==============
     MOBILE: Menu
