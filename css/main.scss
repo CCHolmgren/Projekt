@@ -193,6 +193,12 @@ nav {
     width: 25%;
 }
 
+.left.tinyimg {
+    float:left;
+    height: 50px;
+    width: 50px;
+}
+
 .right {
     float: right;
 }
@@ -419,6 +425,16 @@ fieldset ul {
         float: left;
         width: 49%;
         padding-right:5px;
+    }
+
+    .content-three {
+        @extend .content-half;
+        width:74%;
+    }
+
+    .content-one {
+        @extend .content-half;
+        width:24%;
     }
 
     footer{

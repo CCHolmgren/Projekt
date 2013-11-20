@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"list-st",
+				"list-style-type"
+			],
+			[
 				"text-",
 				"text-decoration"
 			],
@@ -136,10 +140,6 @@
 				"inline-block"
 			],
 			[
-				"list-st",
-				"list-style"
-			],
-			[
 				"font-",
 				"font-family"
 			],
@@ -167,7 +167,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6707,
+				"buffer_size": 6709,
 				"line_ending": "Windows"
 			}
 		},
@@ -183,7 +183,7 @@
 			"file": "sortiment/mobler.html",
 			"settings":
 			{
-				"buffer_size": 6213,
+				"buffer_size": 6185,
 				"line_ending": "Windows"
 			}
 		},
@@ -191,7 +191,7 @@
 			"file": "cart/index.html",
 			"settings":
 			{
-				"buffer_size": 8076,
+				"buffer_size": 8022,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,7 +199,7 @@
 			"file": "varuhus/index.html",
 			"settings":
 			{
-				"buffer_size": 8372,
+				"buffer_size": 8376,
 				"line_ending": "Windows"
 			}
 		},
@@ -207,7 +207,7 @@
 			"file": "kontakt.html",
 			"settings":
 			{
-				"buffer_size": 4757,
+				"buffer_size": 4767,
 				"line_ending": "Windows"
 			}
 		},
@@ -215,7 +215,7 @@
 			"file": "css/main.scss",
 			"settings":
 			{
-				"buffer_size": 10370,
+				"buffer_size": 10440,
 				"line_ending": "Windows"
 			}
 		}
@@ -374,6 +374,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"dd",
+			"dl",
+			"index",
+			"input",
 			"nav",
 			"nav a",
 			"nav li ",
@@ -495,7 +499,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -504,15 +508,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6707,
+						"buffer_size": 6709,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2807,
-								2807
+								1015,
+								1016
 							]
 						],
 						"settings":
@@ -522,7 +526,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 630.0,
+						"translation.y": 105.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -551,7 +555,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 675.0,
+						"translation.y": 465.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -562,15 +566,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6213,
+						"buffer_size": 6185,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2789,
-								2789
+								3973,
+								3973
 							]
 						],
 						"settings":
@@ -580,7 +584,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 638.0,
+						"translation.y": 941.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -591,15 +595,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8076,
+						"buffer_size": 8022,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2801,
-								2801
+								2960,
+								2960
 							]
 						],
 						"settings":
@@ -609,7 +613,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 675.0,
+						"translation.y": 915.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -620,15 +624,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8372,
+						"buffer_size": 8376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3102,
-								3102
+								4050,
+								4050
 							]
 						],
 						"settings":
@@ -638,7 +642,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 585.0,
+						"translation.y": 1005.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -649,15 +653,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4757,
+						"buffer_size": 4767,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2699,
-								2699
+								3293,
+								3293
 							]
 						],
 						"settings":
@@ -667,7 +671,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 765.0,
+						"translation.y": 915.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -684,15 +688,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10370,
+						"buffer_size": 10440,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6788,
-								6788
+								6053,
+								6053
 							]
 						],
 						"settings":
@@ -702,7 +706,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5006.0,
+						"translation.y": 4526.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

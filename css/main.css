@@ -145,6 +145,11 @@ nav a:hover {
   height: 25px;
   width: 25%; }
 
+.left.tinyimg {
+  float: left;
+  height: 50px;
+  width: 50px; }
+
 .right {
   float: right; }
 
@@ -316,10 +321,16 @@ fieldset ul {
   .main aside {
     clear: both; }
 
-  .content-half {
+  .content-half, .content-three, .content-one {
     float: left;
     width: 49%;
     padding-right: 5px; }
+
+  .content-three {
+    width: 74%; }
+
+  .content-one {
+    width: 24%; }
 
   footer {
     clear: both; } }
