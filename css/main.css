@@ -412,6 +412,9 @@ fieldset ul {
     box-shadow: none !important;
     text-shadow: none !important; }
 
+  nav, input, button, .personal, .footer-container, .tinyimg {
+    display: none; }
+
   a,
   a:visited {
     text-decoration: underline; }
@@ -457,4 +460,14 @@ fieldset ul {
 
   h2,
   h3 {
-    page-break-after: avoid; } }
+    page-break-after: avoid; }
+
+  .content-three {
+    float: left;
+    width: 74%;
+    padding-right: 5px; }
+
+  .content-one {
+    float: left;
+    width: 24%;
+    padding-right: 5px; } }
