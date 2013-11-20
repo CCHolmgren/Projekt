@@ -64,12 +64,12 @@
                     <article>
                         <div class="wrap shadow geoloc"><p>Geolocation <br>
                             Samt sortering efter närhet till din plats</p>
-                            <div>Sortera efter:
+                            <p>Sortering:
                                 <select data-ng-model="orderProp">
                                     <option value="location">Plats</option>
                                     <option selected value="value">Ursprunglig sortering</option>
                                 </select>
-                            </div></div>
+                            </p></div>
                             <div class="stores">
                             <div class="quarter left" data-ng-repeat="store in stores|orderBy:orderProp">
                                 <img data-ng-Src="{{store.img}}" class="smallimg" alt />
