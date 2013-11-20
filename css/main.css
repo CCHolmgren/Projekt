@@ -71,9 +71,6 @@ body {
 .main aside {
   background: white; }
 
-.title a {
-  color: black; }
-
 /* ==============
     MOBILE: Menu
    ============== */
@@ -142,8 +139,8 @@ nav a:hover {
 
 .left.smallimg {
   margin: 1em 0;
-  height: 25px;
-  width: 25%; }
+  height: 40px;
+  width: 40px; }
 
 .left.tinyimg {
   float: left;
@@ -186,7 +183,7 @@ header {
   min-width: 133px; }
 
 .quarter.left {
-  border: 1px dotted black; }
+  /*border: 1px dotted black;*/ }
 
 .smalltext {
   font-weight: bold;
@@ -258,6 +255,9 @@ input[type="submit"] {
 
 fieldset ul {
   list-style-type: none; }
+
+.black, .title a {
+  color: black; }
 
 /* ==========================================================================
    Media Queries

@@ -66,8 +66,9 @@
                 <article>
                 <section>
                     <h2>Alla produkter</h2>
-                    <div class="quarter left smalltext" ng-repeat="category in categories"><a href="{{category.link}}">
-                        <img src="{{category.imgsrc}}" alt="{{category.imgalt}}" class="smallimg">{{category.name}} 
+                    <div class="quarter left smalltext" ng-repeat="category in categories">
+                        <a class="black" href="{{category.link}}">
+                        <img src="{{category.img}}" alt="{{category.imgalt}}" class="smallimg">{{category.name}} 
                     </a></div>
                 </section>
                 </article>

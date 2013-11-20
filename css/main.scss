@@ -102,7 +102,7 @@ body {
 }
 
 .title a {
-    color: black;
+    @extend .black;
 }
 
 /* ==============
@@ -189,8 +189,8 @@ nav {
 
 .left.smallimg {
     margin: 1em 0;
-    height: 25px;
-    width: 25%;
+    height: 40px;
+    width: 40px;
 }
 
 .left.tinyimg {
@@ -245,7 +245,7 @@ header {
 }
 
 .quarter.left {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
 }
 
 .smalltext {
@@ -332,6 +332,10 @@ input[type="submit"] {
 
 fieldset ul {
     list-style-type: none;
+}
+
+.black {
+    color:black;
 }
 
 /* ==========================================================================
