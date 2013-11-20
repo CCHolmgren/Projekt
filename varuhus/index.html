@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="sv" ng-app="warehouseApp"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="sv" data-ng-app="warehouseApp"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -17,7 +17,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
         <script src="controllers.js"></script>
     </head>
-    <body ng-controller="warehouseCtrl">
+    <body data-ng-controller="warehouseCtrl">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
             <![endif]-->
@@ -65,14 +65,14 @@
                         <div class="wrap shadow geoloc"><p>Geolocation <br>
                             Samt sortering efter närhet till din plats</p>
                             <div>Sortera efter:
-                                <select ng-model="orderProp">
+                                <select data-ng-model="orderProp">
                                     <option value="location">Plats</option>
                                     <option selected value="value">Ursprunglig sortering</option>
                                 </select>
                             </div></div>
                             <div class="stores">
-                            <div class="quarter left" ng-repeat="store in stores|orderBy:orderProp">
-                                <img src="{{store.img}}" class="smallimg" alt />
+                            <div class="quarter left" data-ng-repeat="store in stores|orderBy:orderProp">
+                                <img data-ng-Src="{{store.img}}" class="smallimg" alt />
                                 <span class="textpadding">{{store.location}}</span>
                             </div>
                                 <!-- <div class="quarter left">
